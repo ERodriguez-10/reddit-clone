@@ -1,0 +1,15 @@
+.bg-content {
+  background-color: #DAE0E6;
+  width: 100vw;
+}
+
+.width-content {
+  margin: 0 auto;
+  width: 1020px;
+}
+
+h3 {
+  padding: 18px 0 10px 0 !important;
+  font-size: 14px;
+  font-weight: 400;
+}

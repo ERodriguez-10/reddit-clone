@@ -1,0 +1,39 @@
+.width-content {
+  margin: 0 auto;
+  width: 1020px;
+}
+
+.trending-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.trending-chart {
+  border-radius: 10px;
+  width: 238px;
+  height: 178px;
+  background-color: aqua;
+  background-image: url(https://picsum.photos/id/135/200);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 8px
+}
+
+.title-trending,
+.text-trending {
+  color: white;
+}
+
+.title-trending {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.text-trending {
+  font-size: 15px;
+}

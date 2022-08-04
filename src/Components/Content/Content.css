@@ -1,0 +1,291 @@
+.width-content {
+  margin: 0 auto;
+  width: 1020px;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 0 10px;
+  gap: 15px
+}
+
+.post-container {
+  display: grid;
+  grid-template-columns: 5% 95%;
+  width: 640px;
+  border: 1px solid #d3d3d3;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.votes-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #EDEFF1;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.votes {
+  margin: 5px 0 5px 0;
+  text-align: center;
+}
+
+.post-section {
+  padding: 10px;
+}
+
+.bi-caret-up,
+.bi-caret-down {
+  color: black;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  background-color: #EDEFF1;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.bi-caret-up:hover,
+.bi-caret-down:hover {
+  color: #76448A ;
+}
+
+.icon-post {
+  width: 24px;
+  height: 24px;
+  background-color: #76448A;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.information-post {
+  display: flex;
+  align-items: center;
+}
+
+.information-post p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.information-post span {
+  color: grey;
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 10px 0 15px 0;
+}
+
+p {
+  font-size: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.tools-section {
+  margin-top: 10px;
+  padding: 5px;
+  justify-content: flex-start;
+  color: gray;
+  font-weight: bold;
+}
+
+.bi-chat-square,
+.bi-share,
+.bi-bookmark {
+  color: gray;
+  margin-right: 5px;
+}
+
+.info {
+  margin-right: 20px;
+}
+
+.info p {
+  font-size: 12px;
+}
+
+.media-section {
+  width: 580px;
+  height: 512px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* LEFT SIDEBAR */
+
+.left-sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 314px;
+  border-radius: 5px;
+}
+
+.community {
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.head-community {
+  background-color: #76448A;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.head-community h2 {
+  color: white;
+  margin: 0 8px 8px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tier-community {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 5px 15px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #EDEFF1;
+}
+
+.info-community {
+  justify-content: flex-start;
+}
+
+.join-btn {
+  background-color: #76448A;
+  border-radius: 50px;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.bi-chevron-up {
+  color: green;
+  font-size: 16px;
+}
+
+.rank {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.more-btn {
+  background-color: #76448A;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+  padding: 10px 110px;
+  margin: 10px;
+}
+
+.topic-btn {
+  color: #76448A;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 5px 15px 0;
+}
+
+.premium {
+  width: 314px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.premium-box {
+  padding: 5px 15px;
+}
+
+.bi-shield-fill {
+  font-size: 28px;
+  color: #76448A;
+  margin-right: 10px;
+}
+
+.premium-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.premium-info {
+  font-size: 12px;
+}
+
+.try-btn {
+  color: white;
+  font-weight: bold;
+  padding: 10px 110px;
+  border-radius: 50px;
+  margin: 10px;
+  background-color: #76448A;
+}
+
+.category-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 15px;
+}
+
+.categories {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.category-option {
+  border-bottom: 1px solid #EDEFF1;
+}
+
+.category-option p {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.category-option:last-child {
+  border-bottom: none;
+}
+
+.rights {
+  color: grey;
+  padding: 8px 20px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.top-btn {
+  width: 150px;
+  font-size: 16px;
+  background-color: #76448A;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50px;
+}

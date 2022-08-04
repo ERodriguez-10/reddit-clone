@@ -1,0 +1,99 @@
+/* UTILITIES */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bar {
+  justify-content: space-between;
+  background-color: white;
+}
+
+/* LOGO DIV */
+
+.icon-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #76448A;
+  margin: 8px 8px 8px 20px;
+}
+
+.name-site {
+  font-weight: normal;
+}
+
+.name-site span {
+  color: #76448A;
+  font-weight: bold;
+}
+
+/* SEARCH DIV */
+
+.search-box {
+  background-color: #EDEFF1;
+  border-radius: 5px;
+}
+
+.bi-search {
+  margin-left: 10px;
+}
+
+.search-input {
+  background-color:#EDEFF1;
+  border: none;
+  padding: 10px 5px;
+  width: 600px;
+  border-radius: 5px;  
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-box:hover {
+  border: 1px solid #76448A;
+  border-radius: 5px;
+}
+
+/* ACCOUNT DIV */
+
+.login-link {
+  border: 1px solid#76448A;
+  color: #76448A;
+}
+
+.create-link {
+  border: none;
+  background-color: #76448A;
+  color: white;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 5px 18px;
+  border-radius: 50px;
+  margin-right: 18px;
+}
+
+.bi-person::before {
+  font-size: 24px;
+  color: gray;
+}
+
+.bi-chevron-down::before {
+  font-size: 14px;
+}
+
+.icon-btn {
+  padding: 2px 10px;
+  margin-right: 20px;
+}
+
+.icon-btn:hover {
+  border: 1px solid lightgray;
+  cursor: pointer;
+  border-radius: 50px;
+}
